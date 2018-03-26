@@ -10,8 +10,6 @@ void read(ifstream *file, int **data, char **idname, char **idsubj)
 	char str[200];
 	int count=0;
 	char mass[200];
-	//ifstream file; // ñîçäàåì îáúåêò êëàññà ifstream
-	//file.open("462.csv");
 	while(!file->eof())
 	{
 		file->getline(mass, 200, ',');
